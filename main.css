@@ -16,6 +16,7 @@
 body {
     background-color: var(--background);
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 
@@ -23,13 +24,30 @@ body {
     height: 100%;
 }
 
-/* .main { */
-/*     display: flex; */
-/*     justify-content: center; */
-/*     align-items: center; */
-/*     width: 100rem; */
-/*     height: 100rem; */
-/* } */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100rem; */
+    height: 100rem;
+}
+
+.nav-bar {
+    height: 5rem;
+    background-color: var(--background-0);
+
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+    color: var(--textcolor);
+}
+
+#nav-button {
+    margin: 1%;
+}
 
 .test-back {
     display: flex; 
