@@ -34,20 +34,40 @@ body {
 
 .nav-bar {
     height: 5rem;
-    background-color: var(--background-0);
+    /* background-color: var(--background-0); */
 
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 80%;
     justify-content: space-around;
     color: var(--textcolor);
 }
 
 #nav-button {
     margin: 1%;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    transition: background-color;
+    transition-duration: 0.5s; 
 }
+
+#nav-button:hover {
+    background-color: var(--background-0);
+}
+
+#nav-space {
+    width: 60rem;
+}
+
+/* #home-button {  */
+/*     margin-right: 0rem;  */
+/* }  */
 
 .test-back {
     display: flex; 
