@@ -7,7 +7,7 @@
     --foreground: #FFFFFF;
     --background: #2d0a44;
     --background-0: #593767;
-    --accent: #616283;
+    --accent: #796183;
     --highlight: #CB9CF2;
 /*    --textcolor: #73518A; */
     --textcolor: #FFFFFF;
@@ -24,14 +24,7 @@ body {
     height: 100%;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 100rem; */
-    height: 100rem;
-}
-
+/* Navigation Bar */
 .nav-bar {
     height: 5rem;
     /* background-color: var(--background-0); */
@@ -72,20 +65,56 @@ body {
 /*     margin-right: 0rem;  */
 /* }  */
 
-.test-back {
-    display: flex; 
-    background-color: var(--background-0);          /* Background color */
-    padding: 1rem;
-    width: 20rem;
-    height: 15rem;
-    color: var(--textcolor);                        /* Text color */
-    border-radius: 20px;
+/* Main Page */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100rem; */
+    height: 100rem;
+}
+
+.description {
+    /* display: flex;  */
+    /* background-color: var(--background-0);          Background color */
+    /* padding: 1rem; */
+    /* width: 20rem; */
+    /* height: 15rem; */
+    /* color: var(--textcolor);                        Text color */
+    /* border-radius: 20px; */
     /* animation: spin 500ms infinite; */
     /* transition: all ease-in-out 250ms; */
+
+    /* These need something in them?! */
+}
+
+.picture {
+    /* These need something in them?! */
+
 }
 
 #text-center {
     flex-direction: column; 
     align-items: center; 
     justify-content: center;  
+}
+
+.main-divs {
+    display: flex; 
+    background-color: var(--background-0);          /* Background color */
+    padding: 1rem;
+    width: 25rem;
+    height: 35rem;
+    color: var(--textcolor);                        /* Text color */
+    border-radius: 20px;
+}
+
+.main-space {
+    width: 10rem;
+}
+
+/* About and Picture */
+.about-space {
+    height: 0.5rem;
+
 }
