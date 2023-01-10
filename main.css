@@ -52,6 +52,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--background);
+    border: none;
+    color: var(--textcolor);
     border-radius: 0.5rem;
     transition: background-color;
     transition-duration: 0.5s; 
